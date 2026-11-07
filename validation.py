@@ -15,9 +15,9 @@ from sklearn.metrics import (
     confusion_matrix, roc_auc_score
 )
 
-IMAGE_DIR = Path(r"C:\Users\Kanika\Desktop\TB\Montgomery\Montgomery\img")
-MASK_DIR = Path(r"C:\Users\Kanika\Desktop\TB\Montgomery\Montgomery\mask")
-OUTPUT_DIR = Path(r"C:\Users\Kanika\Desktop\TB")
+IMAGE_DIR = Path(r"...")
+MASK_DIR = Path(r"...")
+OUTPUT_DIR = Path(r"...")
 IMAGE_SIZE = 224
 RANDOM_STATE = 42
 EPOCHS = 20
