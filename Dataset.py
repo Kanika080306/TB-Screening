@@ -3,8 +3,8 @@ from PIL import Image
 import matplotlib.pyplot as plt
 import numpy as np
 
-IMAGE_DIR = Path(r"C:\Users\Kanika\Desktop\TB\Montgomery\Montgomery\img")
-MASK_DIR = Path(r"C:\Users\Kanika\Desktop\TB\Montgomery\Montgomery\mask")
+IMAGE_DIR = Path(r"...")
+MASK_DIR = Path(r"...")
 
 image_path = next(IMAGE_DIR.glob("*.png"))
 mask_path = next(MASK_DIR.rglob(image_path.name))
